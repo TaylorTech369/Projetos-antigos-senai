@@ -1,0 +1,27 @@
+<DOCTYPE html>
+  
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Site trabalho senai</title>
+
+</head>
+
+<body>
+
+  <p id="mensagem">Texto original</p>
+
+  <script>
+
+    //Alterar o texto do parágrafo "mensagem"//
+
+    document.getElementById("mensagem").textContent = "Texto alterado com sucesso!";
+
+  </script>
+
+</body>
+
+</html>
