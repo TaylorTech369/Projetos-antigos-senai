@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array em javascript</title>
+</head>
+<body>
+
+<script>
+const cidades = ["Palhoça", "Itajaí","BC"]
+console.log(cidades)
+// função PUSH adiciona elemento no final da lista
+function adicionar() {
+    cidade = prompt("digite sua cidade")
+    cidade.push(cidade)
+    console.log(cidades)
+}
+
+// função UNSHIFT adiciona elemento no inicio da lista
+function adicionarInicial() {
+
+}
+
+function removerFinal() {
+    cidades.pop()
+    console.log(cidades)
+}
+
+function removerInicio() {
+    cidades.shift()
+    console.log(cidades)
+}
+
+function removerEspecifico() {
+
+}
+
+function dividirArray() {
+    subcidades = cidades.splice(-2)
+    console.log(subcidades)
+}
+</script> 
+
+<button type="button" onclick="adicionar()">Adicionar cidade(PUSH)</button>
+<button></button>
+
+</body>
+</html>
